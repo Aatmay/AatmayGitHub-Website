@@ -48,12 +48,13 @@ html, body {
 /* Navbar */
 nav {
   width: 100%;
-  background-color: var(--primary-color);
+  background-image: linear-gradient(to right, #00bcd4, #00ffff); /* Gradient cyan */
   padding: 15px 20px;
   position: fixed;
   top: 0;
   z-index: 1000;
 }
+
 
 nav ul {
   list-style: none;
